@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SERVICIO</title>
+    <link rel="stylesheet" href="csss/estserv.css" />
+    <script src="java/jarvis.js"></script>
+</head>
+
+<body class="bodyback">
+
+    <header class="geder">
+        <img class="logo" src="csss/imagenes/logo.png" width="100px" alt="Logo" />
+        <h1 class="textogeder">Alba Xplore</h1>
+        <nav id="navigate">
+            <ul>
+                <li><a href="index.html" class="textoREF">INICIO</a></li>
+                <li><a href="galeria.html" target="_blank" class="textoREF">GALERIA</a></li>
+                <li><a href="contacto.html"  target="_blank" class="textoREF">CONTACTO</a></li>
+                <li><a href="testim.html"  target="_blank" class="textoREF">TESTIMONIOS</a></li>
+                <li><a href="#redes" class="textoREF">REDES</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <div class="summary-container">
+        <div class="summary-floating">
+            <h2 class="texto">Resumen</h2>
+            <ul class="texto" id="summary-items">
+                <!-- Los elementos seleccionados se agregarán dinámicamente aquí -->
+            </ul>
+            <p class="texto">Total: <span id="summary-total">$0</span></p>
+        </div>
+    </div>
+    
+    
+
+    <div>
+        <div class="container">
+            <h1 class="textoh1">Paquetes de viajes</h1>
+
+            <p class="texto">Nuestra especializadad es crear experiencias inolvidables y para lograrlo nuestro
+                equipo ha armado cuidadosamente una variedad de paquetes de viaje para satisfacer tus necesidades y
+                presupuesto.</p>
+
+            <div class="container">
+                <div class="packages">
+
+                    <div class="package">
+                        <img src="csss/imagenes/cheaptravel.png" alt="Paquete Económico">
+                        <h2 class="texto" id="package-1">Paquete Econo</h2>
+                        <p class="texto">Descubre destinos increíbles a un precio asequible. Disfruta de alojamientos
+                            cómodos y
+                            actividades emocionantes.</p>
+                            <button class="selection-button" onclick="selectPackage(1)">Seleccionar</button>
+                    </div>
+
+
+                    <div class="package">
+                        <img src="csss/imagenes/chancho-estandar1.jpg" alt="Paquete Estándar">
+                        <h2 class="texto" id="package-2">Paquete Estándar</h2>
+                        <p class="texto" >Vive una experiencia de viaje sin preocupaciones con nuestro paquete estándar.
+                            Incluye
+                            alojamientos de calidad y opciones de entretenimiento adicionales.</p>
+                            <button class="selection-button" onclick="selectPackage(2)">Seleccionar</button>
+
+                    </div>
+
+                    <div class="package">
+                        <img src="csss/imagenes/chancho-premium1.jpg" alt="Paquete Premium">
+                        <h2 class="texto" id="package-3">Paquete Premium</h2>
+                        <p class="texto" >Sumérgete en el lujo y el confort con nuestro paquete premium. Disfruta de los
+                            mejores
+                            hoteles, servicios exclusivos y atención personalizada.</p>
+                            <button class="selection-button" onclick="selectPackage(3)">Seleccionar</button>
+                    </div>
+                </div>
+            </div>
+
+            <hr style="border-color: rgb(245, 150, 17); background-color: rgb(245, 150, 17);">
+
+            <div class="destinos">
+                <h2 class="textoh1">Destinos</h2>
+
+                <div class="packages">
+
+                    <div class="package">
+                        <img src="csss/imagenes/cancun.jpg" alt="Cancún">
+                        <h2 class="texto" id="destination-2">Cancún</h2>
+                        <p class="texto">Explora las hermosas playas de aguas turquesas en Cancún. Sumérgete en la
+                            cultura maya y disfruta de la excelente gastronomía.</p>
+                            <button class="selection-button" onclick="selectDestination(2)">Seleccionar</button>
+
+                    </div>
+
+                    <div class="package">
+                        <img src="csss/imagenes/bali.jpg" alt="Bali">
+                        <h2 class="texto" id="destination-3">Bali</h2>
+                        <p class="texto">Sumérgete en la exótica belleza de Bali. Descubre templos impresionantes,
+                            relájate en playas de ensueño y disfruta de la hospitalidad balinesa.</p>
+                            <button class="selection-button" onclick="selectDestination(3)">Seleccionar</button>
+
+                        </div>
+
+                    <div class="package">
+                        <img src="csss/imagenes/canarias.jpeg" alt="Canarias">
+                        <h2 class="texto" id="destination-4">Canarias</h2>
+                        <p class="texto">Disfruta del clima templado y las playas de arena blanca en las Islas Canarias.
+                            Explora paisajes volcánicos y practica deportes acuáticos.</p>
+                            <button class="selection-button" onclick="selectDestination(4)">Seleccionar</button>
+
+                        </div>
+                </div>
+            </div>
+
+            <hr style="border-color: rgb(245, 150, 17); background-color: rgb(245, 150, 17);">
+
+            <div class="transportation">
+                <h2 class="textoh1">Opciones de Transporte</h2>
+
+                <div class="packages">
+                    <div class="package">
+                        <img src="csss/imagenes/avion.png" alt="Avión">
+                        <h2 class="texto" id="transportation-1">Avión</h2>
+                        <p class="texto">Experimenta la comodidad y la rapidez con nuestros vuelos cuidadosamente
+                            seleccionados.</p>
+                            <button class="selection-button" onclick="selectTransportation(1)">Seleccionar</button>
+                    </div>
+
+                    <div class="package">
+                        <img src="csss/imagenes/bus.png" alt="Colectivo">
+                        <h2 class="texto" id="transportation-2">Colectivo</h2>
+                        <p class="texto">Explora el paisaje y disfruta del viaje en nuestras opciones de transporte
+                            terrestre.</p>
+                            <button class="selection-button" onclick="selectTransportation(2)">Seleccionar</button>
+                    </div>
+                </div>
+                <hr style="border-color: rgb(245, 150, 17); background-color: rgb(245, 150, 17);">
+            </div>
+        </div>
+    </div>
+
+
+    <section id="redes">
+        <h2 >Redes</h2>
+
+        <div class="redes-container">
+            <div class="red-social">
+                <img src="csss/imagenes/facebook-6062236_1280.png" alt="Facebook Logo">
+                <span >Facebook</span>
+            </div>
+
+            <div class="red-social">
+                <img src="csss/imagenes/twitter.png" alt="Twitter Logo">
+                <span >Twitter</span>
+            </div>
+
+            <div class="red-social">
+                <img src="csss/imagenes/instagram-6062238_1280.png" alt="Instagram Logo">
+                <span >Instagram</span>
+            </div>
+        </div>
+
+    </section>
+
+</body>
+
+</html>

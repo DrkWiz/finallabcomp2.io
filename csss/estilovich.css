@@ -1,0 +1,287 @@
+@font-face {
+    font-family: "Harlow Solid Italic";
+    src: url(fonts/HARLOWSI.TTF) format("truetype");
+}
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.bodyback {
+    background-image: url(imagenes/fondoserviccios2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    /*background-color: #0C60F2;*/
+}
+
+#imagen {
+    margin-right: 10px;
+}
+
+.geder {
+    background-color: rgb(245, 150, 17);
+    /* #00DDFF
+    #0CE891
+    #0DFF1D*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    margin: 10px;
+}
+
+#navigate {
+    margin-left: auto;
+}
+
+#navigate ul {
+    list-style-type: none;
+    display: flex;
+}
+
+#navigate li {
+    margin-right: 10px;
+}
+
+.texto {
+    /*font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
+    font-family: sans-serif;
+    flex-grow: 1;
+    color: black;
+    text-shadow: 1px 1px 20px rgb(0, 0, 0, 0.5);
+    margin: 10px;
+}
+
+.textogeder {
+    /*font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
+    font-family: "Harlow Solid Italic", sans-serif;
+    font-size: 50px;
+    color: rgb(9, 129, 209);
+    text-shadow: 1px 1px 20px rgb(9, 129, 209, 0.5);
+}
+
+.textoREF {
+    text-decoration: none;
+    font-family: sans-serif;
+    flex-grow: 1;
+    color: rgb(9, 129, 209);
+    text-shadow: 1px 1px 20px rgb(9, 129, 209);
+}
+
+#redes {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+#redes h2 {
+    padding-top: 15px;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+.redes-container {
+    display: flex;
+    justify-content: center;
+}
+
+.red-social {
+    display: flex;
+    align-items: center;
+    margin: 0 40px;
+}
+
+.red-social span {
+    font-family:sans-serif;
+    font-size: 30px;
+}
+
+.red-social img {
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+}
+
+.red-social span {
+    font-weight: bold;
+}
+
+section {
+    text-align: center;
+}
+
+.about-us {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.about-us-text {
+    flex: 1;
+    text-align: center;
+}
+
+.about-us-image {
+    flex: 1;
+    text-align: right;
+}
+
+.about-us h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-us p {
+    font-size: 16px;
+    line-height: 1.752;
+
+}
+
+.about-us-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.trusted-companies h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.company-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 30px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.company-list li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.travel-plans {
+    background-color: rgb(65, 154, 62, 0.5);
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.plan-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    flex-grow: 1;
+}
+
+.plan {
+    display: flex;
+    background-color: rgb(9, 129, 209);
+    padding: 5px;
+    margin:5px;
+    text-align: center;
+    border-radius: 6px;
+    width: 265px;
+    height: 135px;
+    align-items: center;
+}
+
+.plan h3 {
+    font-size: 18px;
+}
+
+.plan p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.plan img {
+    max-width: 100%;
+    height: auto;
+    margin: 15px;
+}
+
+.button {
+    background-color: #FF6F61;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+
+.contenedor1 {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+    padding: 10px;
+}
+
+.contact-form {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgba(65, 154, 62, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.contact-form h2 {
+    font-size: 36px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.button {
+    background-color: #FF6F61;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #FF5545;
+}

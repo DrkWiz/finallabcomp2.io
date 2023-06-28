@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACTO</title>
+    <link rel="stylesheet" href="csss/estilovich.css" />
+    <script src="jarvis.js"></script>
+</head>
+
+<body class="bodyback">
+
+    <header class="geder">
+        <img class="logo" src="csss/imagenes/logo.png" width="100px" alt="Logo" />
+        <h1 class="textogeder">Alba Xplore</h1>
+        <nav id="navigate">
+            <ul>
+                <li><a href="index.html" class="textoREF">INICIO</a></li>
+                <li><a href="serviccio.html" target="_blank" class="textoREF">SERVICIOS</a></li>
+                <li><a href="galeria.html" target="_blank" class="textoREF">GALERIA</a></li>
+                <li><a href="testim.html"  target="_blank" class="textoREF">TESTIMONIOS</a></li>
+                <li><a href="#redes" class="textoREF">REDES</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr style="border-color: rgb(245, 150, 17); background-color: rgb(245, 150, 17);">
+
+    <section class="contact-form">
+        <h2>Contacto</h2>
+        <form id="contactoForm" action="#" method="POST">
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="correo">Correo:</label>
+                <input type="email" id="correo" name="correo" required>
+            </div>
+            <div class="form-group">
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required>
+            </div>
+            <div class="form-group">
+                <label for="consulta">Consulta:</label>
+                <textarea id="consulta" name="consulta" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="button">Enviar</button>
+        </form>
+    </section>
+
+    <hr style="border-color: rgb(245, 150, 17); background-color: rgb(245, 150, 17);">
+
+    <section id="redes">
+        <h2>Redes</h2>
+        <div class="redes-container">
+            <div class="red-social">
+                <img src="csss/imagenes/facebook-6062236_1280.png" alt="Facebook Logo">
+                <span>Facebook</span>
+            </div>
+
+            <div class="red-social">
+                <img src="csss/imagenes/twitter.png" alt="Twitter Logo">
+                <span>Twitter</span>
+            </div>
+
+            <div class="red-social">
+                <img src="csss/imagenes/instagram-6062238_1280.png" alt="Instagram Logo">
+                <span>Instagram</span>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
