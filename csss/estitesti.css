@@ -155,3 +155,7 @@ section {
     padding-left: 20px;
     margin: 10px;
 }
+
+.button:hover {
+    background-color: #FF4C3E; /* Color de fondo al pasar el cursor por encima */
+}

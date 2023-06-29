@@ -1,211 +1,211 @@
 @font-face {
-    font-family: "Harlow Solid Italic";
-    src: url(fonts/HARLOWSI.TTF) format("truetype");
+    font-family: "Harlow Solid Italic"; /* Define una nueva fuente llamada "Harlow Solid Italic" */
+    src: url(fonts/HARLOWSI.TTF) format("truetype"); /* Ruta y formato del archivo de fuente */
 }
 body {
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
+    font-family: sans-serif;/* Fuente para el cuerpo del documento */
+    margin: 0;/* Elimina el margen exterior del cuerpo del documento */
+    padding: 0;/* Elimina el relleno del cuerpo del documento */
 }
 .bodyback {
-    background-image: url(imagenes/fondoserviccios2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: relative;
+    background-image: url(imagenes/fondoserviccios2.jpg);/* Imagen de fondo */
+    background-size: cover;/* Ajusta la imagen de fondo para cubrir todo el contenedor */
+    background-repeat: no-repeat;/* No repetir la imagen de fondo */
+    background-position: center;/* Posición del fondo centrada */
+    position: relative;/* Posición relativa para los elementos secundarios */
     /*background-color: #0C60F2;*/
 }
 
 #imagen {
-    margin-right: 10px;
+    margin-right: 10px;/* Margen derecho de 10 píxeles para el elemento con el id "imagen" */
 }
 
 .geder {
-    background-color: rgb(245, 150, 17);
+    background-color: rgb(245, 150, 17);/* Color de fondo */
     /* #00DDFF
     #0CE891
     #0DFF1D*/
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: flex;/* Mostrar como contenedor flexible */
+    align-items: center;/* Alinear elementos verticalmente en el centro */
+    justify-content: center;/* Alinear elementos horizontalmente en el centro */
 }
 
 .logo {
-    margin: 10px;
+    margin: 10px;/* Margen de 10 píxeles para el elemento con la clase "logo" */
 }
 
 #navigate {
-    margin-left: auto;
+    margin-left: auto;/* Margen izquierdo automático (empujará el elemento a la derecha) */
 }
 
 #navigate ul {
-    list-style-type: none;
-    display: flex;
+    list-style-type: none;/* Sin viñetas */
+    display: flex;/* Mostrar como contenedor flexible */
 }
 
 #navigate li {
-    margin-right: 10px;
+    margin-right: 10px;/* Margen derecho de 10 píxeles para los elementos de lista */
 }
 
 .texto {
     /*font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
-    font-family: sans-serif;
-    flex-grow: 1;
-    color: black;
-    text-shadow: 1px 1px 20px rgb(0, 0, 0, 0.5);
-    margin: 10px;
+    font-family: sans-serif;/* Fuente para el elemento con la clase "texto" */
+    flex-grow: 1;/* El elemento crecerá para ocupar el espacio disponible */
+    color: black;/* Color del texto */
+    text-shadow: 1px 1px 20px rgb(0, 0, 0, 0.5);/* Sombra de texto */
+    margin: 10px;/* Margen de 10 píxeles */
 }
 
 .textogeder {
     /*font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
-    font-family: "Harlow Solid Italic", sans-serif;
-    font-size: 50px;
-    color: rgb(9, 129, 209);
-    text-shadow: 1px 1px 20px rgb(9, 129, 209, 0.5);
+    font-family: "Harlow Solid Italic", sans-serif;/* Fuente para el elemento con la clase "textogeder" */
+    font-size: 50px;/* Tamaño de fuente de 50 píxeles */
+    color: rgb(9, 129, 209);/* Color del texto */
+    text-shadow: 1px 1px 20px rgb(9, 129, 209, 0.5);/* Sombra de texto */
 }
 
 .textoREF {
-    text-decoration: none;
-    font-family: sans-serif;
-    flex-grow: 1;
-    color: rgb(9, 129, 209);
-    text-shadow: 1px 1px 20px rgb(9, 129, 209);
+    text-decoration: none;/* Sin decoración de texto */
+    font-family: sans-serif;/* Fuente para el elemento con la clase "textoREF" */
+    flex-grow: 1;/* El elemento crecerá para ocupar el espacio disponible */
+    color: rgb(9, 129, 209);/* Color del texto */
+    text-shadow: 1px 1px 20px rgb(9, 129, 209);/* Sombra de texto */
 }
 
 #redes {
-    text-align: center;
-    color: rgb(0, 0, 0);
+    text-align: center;/* Alinear texto al centro */
+    color: rgb(0, 0, 0);/* Color del texto */
 }
 
 #redes h2 {
-    padding-top: 15px;
-    font-size: 50px;
-    font-family: sans-serif;
+    padding-top: 15px;/* Relleno superior de 15 píxeles */
+    font-size: 50px;/* Tamaño de fuente de 50 píxeles */
+    font-family: sans-serif;/* Fuente para el elemento h2 dentro de #redes */
 }
 
 .redes-container {
-    display: flex;
-    justify-content: center;
+    display: flex;/* Mostrar como contenedor flexible */
+    justify-content: center;/* Alinear elementos horizontalmente en el centro */
 }
 
 .red-social {
-    display: flex;
-    align-items: center;
-    margin: 0 40px;
+    display: flex;/* Mostrar como contenedor flexible */
+    align-items: center;/* Alinear elementos verticalmente en el centro */
+    margin: 0 40px;/* Margen de 0 píxeles arriba/abajo y 40 píxeles izquierda/derecha */
 }
 
 .red-social span {
-    font-family:sans-serif;
-    font-size: 30px;
+    font-family:sans-serif;/* Fuente para el elemento span dentro de .red-social */
+    font-size: 30px;/* Tamaño de fuente de 30 píxeles */
 }
 
 .red-social img {
-    width: 70px;
-    height: 70px;
-    margin-right: 20px;
+    width: 70px;/* Ancho de 70 píxeles */
+    height: 70px; /* Altura de 70 píxeles */
+    margin-right: 20px;/* Margen derecho de 20 píxeles */
 }
 
 .red-social span {
-    font-weight: bold;
+    font-weight: bold;/* Texto en negrita */
 }
 
 section {
-    text-align: center;
+    text-align: center;/* Alinear texto al centro */
 }
 
 .about-us {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 15px;
+    display: flex;/* Mostrar como contenedor flexible */
+    flex-direction: row;/* Dirección de los elementos secundarios en fila */
+    align-items: center;/* Alinear elementos verticalmente en el centro */
+    justify-content: center;/* Alinear elementos horizontalmente en el centro */
+    margin-bottom: 15px;/* Margen inferior de 15 píxeles */
 }
 
 .about-us-text {
-    flex: 1;
-    text-align: center;
+    flex: 1;/* Ocupar todo el espacio disponible */
+    text-align: center;/* Alinear texto al centro */
 }
 
 .about-us-image {
-    flex: 1;
-    text-align: right;
+    flex: 1;/* Ocupar todo el espacio disponible */
+    text-align: right;/* Alinear texto a la derecha */
 }
 
 .about-us h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
+    font-size: 24px;/* Tamaño de fuente de 24 píxeles */
+    margin-bottom: 10px;/* Margen inferior de 10 píxeles */
 }
 
 .about-us p {
-    font-size: 16px;
-    line-height: 1.752;
+    font-size: 16px;/* Tamaño de fuente de 16 píxeles */
+    line-height: 1.752;/* Altura de línea */
 
 }
 
 .about-us-image img {
-    max-width: 100%;
-    height: auto;
+    max-width: 100%;/* Ancho máximo del 100% */
+    height: auto;/* Altura automática */
 }
 
 
 .trusted-companies h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
+    font-size: 24px;/* Tamaño de fuente de 24 píxeles */
+    margin-bottom: 20px;/* Margen inferior de 20 píxeles */
 }
 
 .company-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    margin-bottom: 30px;
-    overflow: hidden;
-    white-space: nowrap;
+    list-style: none;/* Sin viñetas */
+    padding: 0;/* Sin relleno */
+    margin: 0; /* Sin margen */
+    margin-bottom: 30px;/* Margen inferior de 30 píxeles */
+    overflow: hidden;/* Ocultar contenido que excede el tamaño del contenedor */
+    white-space: nowrap;/* No permitir saltos de línea */
 }
 
 .company-list li {
-    display: inline-block;
-    margin-right: 20px;
+    display: inline-block;/* Mostrar como elemento en línea */
+    margin-right: 20px;/* Margen derecho de 20 píxeles */
 }
 
 .travel-plans {
-    background-color: rgb(65, 154, 62, 0.5);
-    padding: 10px;
-    text-align: center;
-    margin: 10px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    background-color: rgb(65, 154, 62, 0.5);/* Color de fondo con transparencia */
+    padding: 10px;/* Relleno de 10 píxeles en todos los lados */
+    text-align: center;/* Alinear texto al centro */
+    margin: 10px;/* Margen de 10 píxeles */
+    margin-top: 40px;/* Margen superior de 40 píxeles */
+    margin-bottom: 40px;/* Margen inferior de 40 píxeles */
 }
 
 .plan-container {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-    flex-grow: 1;
+    display: flex;/* Mostrar como contenedor flexible */
+    flex-direction: column;/* Dirección de los elementos secundarios en columna */
+    margin-bottom: 20px;/* Margen inferior de 20 píxeles */
+    flex-grow: 1;/* El elemento crecerá para ocupar el espacio disponible */
 }
 
 .plan {
     display: flex;
     background-color: rgb(9, 129, 209);
-    padding: 5px;
+    padding: 5px;/* Relleno de 5 píxeles en todos los lados */
     margin:5px;
     text-align: center;
-    border-radius: 6px;
+    border-radius: 6px;/* Radio de borde de 6 píxeles */
     width: 265px;
     height: 135px;
     align-items: center;
 }
 
 .plan h3 {
-    font-size: 18px;
+    font-size: 18px;/* Tamaño de fuente de 18 píxeles */
 }
 
 .plan p {
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.5;/* Altura de línea */
 }
 
 .plan img {
-    max-width: 100%;
+    max-width: 100%;/* Ancho máximo del 100% */
     height: auto;
     margin: 15px;
 }
@@ -217,10 +217,13 @@ section {
     border: none;
     border-radius: 6px;
     font-size: 16px;
-    cursor: pointer;
+    cursor: pointer;/* Cambia el cursor al pasar por encima */
     margin-bottom: 15px;
 }
 
+.button:hover {
+    background-color: #FF4C3E; /* Color de fondo al pasar el cursor por encima */
+}
 
 .contenedor1 {
     display: flex;
